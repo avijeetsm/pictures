@@ -35,10 +35,11 @@ params:
       landing: true
     - icon: 'fab fa-linkedin-in fa-lg'
       url: 'https://linkedin.com/in/avijeetsm'
-  homepage: "/work" # homepage link, mostly same with menu.main[0]
+  homepage: "/gallery" # homepage link, mostly same with menu.main[0]
   specialPages:
     - work
     - archive
+    - gallery
   bypassWelcomePage: false # redirects "/" to "homepage" when it's true.
   disableWelcomePageBackground: true # disables the background image on the homepage
   plausible: '' # todo: set your plausible id.
@@ -60,18 +61,9 @@ permalinks:
 
 menu:
   main:
-    - name: work
-      url: /work/
+    - name: gallery
+      url: /gallery/
       weight: 1
-    - name: people
-      url: /tags/people/
-      weight: 2
-    - name: nature
-      url: /tags/nature/
-      weight: 3
-    - name: archive
-      url: /tags/archive/
-      weight: 4
     - name: about
       url: /about/
-      weight: 5
+      weight: 2
