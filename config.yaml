@@ -16,12 +16,14 @@ params:
       desktop:
         nature: 4
         archive: 6
-        people: 2
+        gallery: 2
         default: 3
+        mobile: 1
       mobile:
         default: 2
         archive: 3
         people: 1
+        mobile: 1
   socials:
     # todo: change these links.
     - icon: 'far fa-envelope fa-lg'
