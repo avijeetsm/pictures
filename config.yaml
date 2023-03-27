@@ -16,7 +16,7 @@ params:
       desktop:
         nature: 4
         archive: 6
-        gallery: 2
+        gallery: 3
         default: 3
         mobile: 1
       mobile:
@@ -47,7 +47,7 @@ params:
   plausible: '' # todo: set your plausible id.
   disableRadius: false
   moveIt: false  # Moves Title and Meta info down, only visible when scroll.
-  disableAlwaysResize: false
+  disableAlwaysResize: true
 
 markup:
   defaultMarkdownHandler: goldmark
