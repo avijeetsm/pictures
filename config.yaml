@@ -7,7 +7,7 @@ googleAnalytics: '' # todo: set your analytics id.
 params:
   image: /images/banner.png
   logo: /logo.png
-  subtitle: Eternity is a minimalist Hugo theme designed for portfolio sites with a fresh feel. # todo: change default subtitle for your website.
+  subtitle: Some pictures of places I have been. By Avijeet
   copyright: All rights reserved. # todo: set your copyright type.
   author: avijeet singh mandloi # todo: set your full name.
   dontShowSource: false # please, do not do this :)
